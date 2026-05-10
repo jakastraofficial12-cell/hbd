@@ -104,7 +104,7 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
   <!-- ==========================================  -->
   <!-- GANTI AUDIO DI SINI                         -->
   <!-- ==========================================  -->
-  <audio src="https://feeldreams.github.io/audio/anditsnot.mp3" id="linkmp3" class="sembunyi"></audio>
+  <audio src="download.mp3" id="linkmp3" class="sembunyi"></audio>
    
   <div id="bodyblur">
     <!-- ==========================================  -->
@@ -136,11 +136,11 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
     <div><div id="pergeseran" style="position: relative; opacity: 1; transform: scale(1);">
 
 <p><b><img src="https://i.ibb.co/s9cTyc0/bunga.gif"><br>
-  <span>Hai kamu 🤭❤️</span>
+  <span>Hai jiii,, 🤭</span>
 </b></p>
 
 <p><b><img src="https://feeldreams.github.io/pusn.gif"><br>
-  <span>Aku Cuma Mau<br>Bilang Nih 😆</span>
+  <span>Mohon maaf sebelumnya<br>Ngucapin nya telat 😆</span>
 </b></p>
 
 <p><b><img src="https://feeldreams.github.io/cilukba.gif"><br>
@@ -148,11 +148,11 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
 </b></p>
 
 <p><b><img src="https://feeldreams.github.io/g5.gif"><br>
-  <span class="ft">Selamat Ulang Tahun! 🥳</span>
+  <span class="ft">Selamat Ulang Tahun yaa! 🥳</span>
 </b></p>
 
 <p><b><img src="https://feeldreams.github.io/mndkat.gif"><br>
-  <span>Panjang Umur dan<br>Sehat Selalu yaa 🥰</span>
+  <span>Semoga Panjang Umur dan<br>Sehat Selalu yaa 😇</span>
 </b></p>
 
 <!-- ============================================================ -->
@@ -163,7 +163,7 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
 
     <div><blockquote id="bq">
       <p id="teksnim">Happy Level Up Day! 🥳</p>
-      <p id="kalimat"><span id="klganti">Canda yaa wkwk 🤣<br><br></span>Intinya semoga di hari bertambahnya<br>usia kamu ini, kamu bisa menjadi<br>pribadi yang lebih baik lagi yaa.. 🥳<br><br><span class="ft">Wish You All The Best ✨</span></p>
+      <p id="kalimat"><span id="klganti">Canda yaa wkwk 🤣<br><br></span>Intinya semoga di hari bertambahnya<br>usia kamu ini, kamu bisa menjadi<br>pribadi yang lebih baik lagi yaa.. 🥳<br><br>sekali lagi Selamat ulang tahun, ya!<br> Semoga di usiamu yang baru ini,<br> Allah SWT selalu melimpahkan berkah,<br> kesehatan, dan kebahagiaan yang tak terputus.<br> Semoga setiap langkahmu dimudahkan, <br>impianmu satu persatu menjadi nyata, <br>dan kamu selalu dikelilingi oleh<br> orang-orang yang tulus menyayangimu.<br><br><span class="ft">Wish You All The Best ✨</span></p>
     </blockquote></div>
     <!-- ============================================================ -->
      
@@ -330,19 +330,19 @@ tompositif = "Mau";
 tomnegatif = "Gamau";
 async function aksibalas(){
   var { isConfirmed: prtanya } = await swals.fire({
-    title: nama + ' Mau Kado Gak Nih? 🤭❤️',
+    title: nama + ' Mau Kado Gak Nih? 🤭',
     imageUrl: '' + fotostikerPopup.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
   if(prtanya){
     await swals.fire({
       title: 'Tapi Boong! 🤣',
-      html: 'Gajadi ngasih kado ah<br>soalnya kamu bau 😜❤️',
+      html: 'Gajadi ngasih kado ah<br>soalnya kamu bau 😜',
       imageUrl: '' + fotostikerPopupCon.src,
     });
     poinjwb=1;
   } else {
     await swals.fire({
       title: 'Yaaahh!',
-      html: 'Yaudah kalo gamau 😜❤️',
+      html: 'Yaudah kalo gamau 😜',
       imageUrl: '' + fotostikerPopupCan.src,
     });
     poinjwb=2;
